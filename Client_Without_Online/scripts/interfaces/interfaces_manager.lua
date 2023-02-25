@@ -3,12 +3,14 @@
     require "settings"
     require "scripts/interfaces/main_interface"
     require "scripts/interfaces/help_interfaces"
+    require "scripts/interfaces/onGame_interface"
 
 
     function ALL_INTERFACES_INIT()
 
         mainInterfaceInit()
         helpInterfaceInit()
+        onGameInterfaceInit()
 
     end
 
@@ -19,8 +21,8 @@
             a = mainInterfaceManager(interface_choice, dt)
         elseif interface_choice == 2 then
             a = helpInterfaceManager(interface_choice, dt)
-        --elseif interface_choice == 3 then
-
+        elseif interface_choice == 3 then
+            onGameInterfaceManager(interface_choice, dt)
         end
 
         return a

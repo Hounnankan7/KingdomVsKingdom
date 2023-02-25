@@ -1,6 +1,10 @@
 --Variables pour repairage----------------------
 tileSize = 16
 iconSet_TileSize = 64
+mapTileSize = 32
+
+mapW = 15
+mapH = 15
 
 
 --Fonts-----------------------------------------
@@ -19,4 +23,5 @@ font_5 = love.graphics.newFont("assets/fonts/PressStart2P.ttf", font_5_size)
 interface_image = {
     main = love.graphics.newImage("assets/main_image.png");
     help = love.graphics.newImage("assets/help_ui.png");
+    onGame = love.graphics.newImage("assets/onGame_ui.png");
 }
