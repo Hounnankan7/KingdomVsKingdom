@@ -7,26 +7,28 @@
     love.graphics.newQuad(2*32, 0, 32, 32, tileSet:getDimensions()),
     love.graphics.newQuad(3*32, 0, 32, 32, tileSet:getDimensions()),
     love.graphics.newQuad(4*32, 0, 32, 32, tileSet:getDimensions()),
-    love.graphics.newQuad(5*32, 0, 32, 32, tileSet:getDimensions())
+    love.graphics.newQuad(5*32, 0, 32, 32, tileSet:getDimensions()),
+    love.graphics.newQuad(6*32, 0, 32, 32, tileSet:getDimensions()),
+    love.graphics.newQuad(7*32, 0, 32, 32, tileSet:getDimensions())
  }
 
 
 
 map = {
-    1,2,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,1,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,1,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,5,3,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,3,6,6,6,6,6,6,6,6,6,
-    6,6,6,6,6,6,6,6,6,6,6,6,6,6
+    3,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+    8,8,8,8,8,8,8,8,8,8,8,8,8,4
 }
 
 --[[function loadTile()
@@ -58,7 +60,7 @@ function drawGridOwner(gridOwner)
                 love.graphics.setColor(1,1,1)
             elseif gridOwner[i][j] == 2 then -- Possédé par l'ennemi
                 love.graphics.setColor(red_color)
-                love.graphics.rectangle("fill", j*32, i*32, 32, 32)
+                love.graphics.rectangle("fill", (j-1)*32, i*32, 32, 32)
                 love.graphics.setColor(1,1,1)
             end
         end
