@@ -7,6 +7,7 @@ special_sites = {
         name = "";
         image = love.graphics.newImage("assets/special_sites/SS_cave1.png");
         effect = {coins=10, food=10};
+        quantity = 0;
     };
 
     cave_2 = {
@@ -14,6 +15,7 @@ special_sites = {
         name = "";
         image = love.graphics.newImage("assets/special_sites/SS_cave2.png");
         effect = {coins=10, food=10};
+        quantity = 0;
     };
 
     farm = {
@@ -21,6 +23,7 @@ special_sites = {
         name = "";
         image = love.graphics.newImage("assets/special_sites/SS_farm.png");
         effect = {coins=10, food=10};
+        quantity = 0;
     };
 
     forest = {
@@ -28,6 +31,7 @@ special_sites = {
         name = "";
         image = love.graphics.newImage("assets/special_sites/SS_forest.png");
         effect = {coins=10, food=10};
+        quantity = 0;
     };
 
     plaine = {
@@ -35,5 +39,6 @@ special_sites = {
         name = "";
         image = love.graphics.newImage("assets/special_sites/SS_plaine.png");
         effect = {coins=10, food=10};
+        quantity = 0;
     }
 }

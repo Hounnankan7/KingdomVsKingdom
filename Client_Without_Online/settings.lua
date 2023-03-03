@@ -25,3 +25,10 @@ interface_image = {
     help = love.graphics.newImage("assets/help_ui.png");
     onGame = love.graphics.newImage("assets/onGame_ui.png");
 }
+
+--Icons-----------------------------------------------
+icon = {
+    food = love.graphics.newImage("assets/icons/TradingIcons_140_t_11zon.png");
+    coins = love.graphics.newImage("assets/icons/TradingIcons_113_t_11zon.png");
+    army = love.graphics.newImage("assets/icons/SGI_13_11zon.png");
+}

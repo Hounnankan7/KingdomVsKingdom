@@ -4,6 +4,7 @@
     require "lib/color_lib"
     require "settings"
     require "scripts/interfaces/interfaces_manager" 
+    
 
     -- Data requirement
     require "data/units"
@@ -23,6 +24,9 @@
     function love.load(...) --Fonction d'initialisation des éléments
 
         now_ui = 1
+
+        initPlayerCreation()
+        initEnnemyCreation()
         
         ALL_INTERFACES_INIT()
         --print(now_ui)
@@ -34,7 +38,7 @@
         
         now_ui = ALL_INTERFACES_MANAGER(now_ui, dt)
         --print(now_ui)
-
+        --print(player.armyPower)
     end
 
 

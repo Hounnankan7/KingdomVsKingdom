@@ -9,6 +9,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     };
 
 
@@ -20,6 +21,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     };
 
     heavy_cavalry ={
@@ -30,6 +32,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     };
 
     light_cavalry ={
@@ -40,6 +43,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     };
 
     long_swordman ={
@@ -50,6 +54,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     };
 
     man_at_arm ={
@@ -60,6 +65,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     };
 
     scorpion ={
@@ -70,6 +76,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     };
 
     spearman ={
@@ -80,6 +87,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     };
 
     villager ={
@@ -90,6 +98,7 @@ units = {
         description = "";
         -- Coins, Food
         cost = {coins = 200, food = 200};
+        quantity = 4
     }
 
 }
